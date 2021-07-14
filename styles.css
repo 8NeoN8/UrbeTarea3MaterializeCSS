@@ -1,0 +1,345 @@
+body {
+  font-family: serif;
+}
+
+nav {
+  height: 90px;
+}
+
+li {
+  margin-top: 10px;
+  z-index: 2;
+}
+
+li:first-child a {
+  background-image: url(./images/home1.png);
+  background-size: 3cm;
+  background-repeat: no-repeat;
+}
+
+li:first-child a:hover {
+  background-image: url(./images/home2.png);
+  background-repeat: no-repeat;
+  margin-top: -4px;
+}
+
+li:nth-child(2) a {
+  background-image: url(./images/character1.png);
+  background-size: 5cm;
+  background-repeat: no-repeat;
+}
+
+li:nth-child(2) a:hover {
+  background-image: url(./images/character2.png);
+  background-repeat: no-repeat;
+  margin-top: -1px;
+}
+
+li:nth-child(3) a {
+  background-image: url(./images/howto1.png);
+  background-size: 5cm;
+  background-repeat: no-repeat;
+  margin-top: 2px;
+  margin-right: 50px;
+}
+
+li:nth-child(3) a:hover {
+  background-image: url(./images/howto2.png);
+  background-repeat: no-repeat;
+  margin-top: -1px;
+}
+
+li:nth-child(4) a {
+  background-image: url(https://meltyblood.typelumina.com/resources/img/common_en/header_product_info_btn_8759ff4ef2b776a235061611733c35e2.png);
+  background-size: 7cm;
+  background-repeat: no-repeat;
+  margin-top: -10px;
+}
+
+.platforms {
+  border-top: 3px solid rgba(85, 84, 84, 0.671);
+  border-bottom: 3px solid rgba(85, 84, 84, 0.671);
+}
+
+.copyright p {
+  line-height: 20px;
+}
+
+.mymedia a:hover {
+  opacity: 0.8;
+}
+
+.foot-div {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.brand-logo:hover,
+.prod-info-btn:hover,
+.charac:hover,
+.hotopl:hover {
+  opacity: 0.8;
+}
+
+.information-div {
+  display: inline-block;
+  background-image: url(./images/info-image.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.info-table {
+  color: #fff;
+  margin: 5px 0 0 50px;
+  border-collapse: collapse;
+}
+
+.thead {
+  font-size: 14px;
+  width: 80px;
+  text-align: left;
+  padding: 5px;
+}
+.tdd {
+  font-size: 13px;
+  width: 30px;
+  text-align: left;
+  padding: 5px;
+}
+
+.main-promo {
+  display: flexbox;
+  margin-top: -43px;
+  padding-bottom: 20px;
+  background-image: url(./images/mbtl2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.logus {
+  padding-top: 380px;
+}
+
+.saledate {
+  padding-bottom: 300px;
+  margin-top: -70px;
+}
+
+.info-divs {
+  display: flex;
+}
+
+.twitter-div {
+  background-image: url(./images/twit-image.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+  margin-top: 80px;
+  margin-right: 20px;
+}
+
+.tw-p {
+  font-size: 17px;
+  width: 400px;
+  position: relative;
+  right: -100px;
+}
+
+.deluxe {
+  display: inline;
+}
+
+.info-p {
+  background-color: rgba(27, 25, 25, 0.644);
+  border-radius: 15px;
+  line-height: 30px;
+  font-size: 20px;
+  padding: 10px 10px 10px 10px;
+}
+
+.melty-reborn {
+  background-image: url(./images/bg-pt2.jpg);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: 140%;
+}
+
+.charimg1 {
+  background-image: url(./images/bg-char1-1.png);
+  background-repeat: no-repeat;
+  background-size: 90%;
+}
+
+.charimg1:hover {
+  background-image: url(./images/bg-char1-2.png);
+}
+
+.charimg2 {
+  background-image: url(./images/bg-char2-1.png);
+  background-repeat: no-repeat;
+  background-size: 90%;
+}
+
+.charimg2:hover {
+  background-image: url(./images/bg-char2-2.png);
+}
+
+.staff {
+  background-image: url(./images/bg-staff.png);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: 140%;
+  margin-top: -20px;
+  padding: 5px 10px 10px 10px;
+}
+
+/*Character*/
+
+.wrapper-char {
+  background-image: url(./images/bg-pt2.jpg);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: 150%;
+  margin-bottom: -20px;
+  padding-bottom: 50px;
+}
+
+.char-p {
+  font-size: 14px;
+}
+
+.shiki-portrait {
+  background-image: url(./char-img/char-shiki/shiki-portrait1.png);
+  background-repeat: no-repeat;
+}
+
+.shiki-portrait:hover {
+  background-image: url(./char-img/char-shiki/shiki-portrait2.png);
+}
+
+.arc-portrait {
+  background-image: url(./char-img/char-arc/arc-portrait1.png);
+  background-repeat: no-repeat;
+}
+
+.arc-portrait:hover {
+  background-image: url(./char-img/char-arc/arc-portrait2.png);
+}
+
+.akiha-portrait {
+  background-image: url(./char-img/char-akiha/akiha-portrait1.png);
+  background-repeat: no-repeat;
+}
+
+.akiha-portrait:hover {
+  background-image: url(./char-img/char-akiha/akiha-portrait2.png);
+}
+
+.ciel-portrait {
+  background-image: url(./char-img/char-ciel/ciel-portrait1.png);
+  background-repeat: no-repeat;
+}
+
+.ciel-portrait:hover {
+  background-image: url(./char-img/char-ciel/ciel-portrait2.png);
+}
+
+.hisui-portrait {
+  background-image: url(./char-img/char-hisui/hisui-portrait1.png);
+  background-repeat: no-repeat;
+}
+
+.hisui-portrait:hover {
+  background-image: url(./char-img/char-hisui/hisui-portrait2.png);
+}
+
+.kohaku-portrait {
+  background-image: url(./char-img/char-kohaku/kohaku-portrait1.png);
+  background-repeat: no-repeat;
+}
+
+.kohaku-portrait:hover {
+  background-image: url(./char-img/char-kohaku/kohaku-portrait2.png);
+}
+
+.howto-wrapper {
+  background-image: url(./images/bg-pt2.jpg);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: 261.75%;
+  margin-bottom: -20px;
+  padding-bottom: 50px;
+}
+
+.howto-p {
+  color: white;
+  background-color: rgba(0, 0, 54, 0.527);
+  font-size: 25px;
+}
+
+.side-img {
+  margin-top: 50px;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 177, 0.582);
+}
+
+.playmodes {
+  background-image: url(./images/bg-staff.png);
+  background-position-x: center;
+  padding: 10px 10px 10px 10px;
+  margin-bottom: -30px;
+}
+
+.prod-wrapper {
+  background-image: url(./images/bg-pt2.jpg);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: 120%;
+  margin-bottom: -20px;
+  padding-bottom: 50px;
+}
+
+.st:hover,
+.dx:hover,
+.ep:hover {
+  opacity: 0.9;
+}
+
+.st-info {
+  background-image: url(./images/prod-infofmation/standard-bg.png);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  padding-bottom: 50px;
+  padding-top: 15px;
+  margin-left: 200px;
+}
+
+.img-st {
+  margin: 3px 35px 0 5px;
+}
+
+.deluxe-edition {
+  background-color: rgb(121, 90, 9);
+  margin-bottom: -35px;
+  padding-bottom: 20px;
+}
+
+.deluxe-edition-main {
+  background-color: rgb(121, 90, 9);
+  margin-bottom: 19px;
+  padding-bottom: 20px;
+  margin-top: -20px;
+}
+
+.dx-main {
+  background-image: url(./images/prod-infofmation/dx-main-border.png);
+  background-position-x: center;
+  background-position-y: center;
+  background-color: #582e08;
+  background-size: 100%;
+  display: inline-block;
+}
+
+.early-purchase {
+  padding-top: 50px;
+}
